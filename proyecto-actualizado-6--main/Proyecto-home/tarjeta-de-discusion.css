@@ -1,0 +1,38 @@
+/*.card-discusion {
+border-radius: 30px;
+background: #212121;
+box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+position: absolute;
+top: 47%;
+left: 48%;
+transform: translate(-50%, -50%);
+width: 1395px; 
+height: 925px; 
+                           
+}  */ 
+
+.card-discusion {
+   border-radius: 30px;
+   background: #212121;
+   box-shadow: 15px 15px 30px rgb(25, 25, 25),
+       -15px -15px 30px rgb(60, 60, 60);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   max-width: 100%;
+   max-height: 100%;
+   width: 1395px;
+   height: 925px;
+}
+
+@media (max-width: 768px) {
+   .card-discusion {
+   width: 50%;
+   height: auto;
+   top: 40%;
+   left: 50%;
+   transform: translateX(-50%);
+   }
+   }
